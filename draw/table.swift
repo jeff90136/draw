@@ -25,6 +25,13 @@ class table: NSView {
             pa.line(to: line[i])
         }
         pa.stroke()
+    
+    
+    
+    
+    
+    
+    
     }
     
     override func mouseDown(with event: NSEvent) {
