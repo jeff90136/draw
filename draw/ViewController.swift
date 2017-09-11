@@ -12,8 +12,20 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        let fr = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
+        let drawspase = table(frame: fr)
+        view.addSubview(drawspase)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
     override var representedObject: Any? {

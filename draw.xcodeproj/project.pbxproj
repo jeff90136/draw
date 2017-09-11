@@ -13,6 +13,7 @@
 		4A0314F31F663CDE005D02B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0314F11F663CDE005D02B1 /* Main.storyboard */; };
 		4A0314FE1F663CDE005D02B1 /* drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0314FD1F663CDE005D02B1 /* drawTests.swift */; };
 		4A0315091F663CDE005D02B1 /* drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0315081F663CDE005D02B1 /* drawUITests.swift */; };
+		4A0315171F663DBD005D02B1 /* table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0315161F663DBD005D02B1 /* table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4A0315041F663CDE005D02B1 /* drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0315081F663CDE005D02B1 /* drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawUITests.swift; sourceTree = "<group>"; };
 		4A03150A1F663CDE005D02B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0315161F663DBD005D02B1 /* table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4A0314EF1F663CDE005D02B1 /* Assets.xcassets */,
 				4A0314F11F663CDE005D02B1 /* Main.storyboard */,
 				4A0314F41F663CDE005D02B1 /* Info.plist */,
+				4A0315161F663DBD005D02B1 /* table.swift */,
 			);
 			path = draw;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0315171F663DBD005D02B1 /* table.swift in Sources */,
 				4A0314EE1F663CDE005D02B1 /* ViewController.swift in Sources */,
 				4A0314EC1F663CDD005D02B1 /* AppDelegate.swift in Sources */,
 			);
